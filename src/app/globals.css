@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+/* <svg xmlns="http://www.w3.org/2000/svg" width="310" height="51" fill="none" viewBox="0 0 310 51"><path fill="#011053" d="M8.06179 46.7219H0V2.88586h8.06179L29.35 33.8734V2.88586H37V46.7219h-7.65L8.06179 15.4824zM143.349.996375h-7.054V46.7219h20.91v-9.0696h-13.856zM234.8.996375h-31.24V9.68799h11.211V46.7219h7.81V9.68799H234.8zM270.7.996375h-29.602V46.7219H270.7V38.786h-22.2v-9.6993h17.539v-7.5579H248.5V10.0145l22.2-.32651zM308.49 16.0017h-6.173s-1.034-6.30415-4.031-8.31377c-3.309-2.21925-6.751-1.99013-10.203 0-1.899 1.09466-3.078 2.00111-3.905 4.03087-.835 2.0502-.398 3.491 0 5.6685 3.149 2.1419 20.914.4836 24.312 10.2032 1.509 4.3186 1.597 8.1563 0 12.4432-1.371 3.6791-2.637 6.2925-6.173 8-6.817 3.2927-11.143 3.4729-17.317 0-3.396-1.9099-6.18-4.3344-7.5-8-1.05-2.9159-.376-7.7825-.376-7.7825h4.535s1.81 4.9876 4.283 7.0541c4.907 4.1006 13.515 5.7199 16.375 0 1.43-2.86 1.373-5.2998 0-8.1878-4.317-9.0838-21.938.0068-25.193-10.0772-1.3-4.026-1.523-6.8863 0-10.8331 1.741-4.5107 4.384-6.76299 8.818-8.69158 4.917-2.138721 8.681-1.805977 13.73 0 3.958 1.41573 3.839 2.01812 7.328 6.17231 2.088 2.48607 1.49 8.31377 1.49 8.31377"/><path fill="#011053" fill-rule="evenodd" d="M162.244 46.7219h7.557l4.913-12.5966h15.998l5.164 12.5966h7.684L185.799.996375h-7.558zm26.578-19.3987h-12.47l6.928-15.4938zM95.4818 46.7219h7.9362V31.732s9.779 2.1878 15.367 0c7.145-2.7972 11.72-7.1952 11.967-14.864.258-7.97048-3.905-13.82254-11.967-15.871625-8.82-2.241845-23.3032 0-23.3032 0zm7.9362-23.5556V8.55431s9.893-3.30254 14.486 0c3.082 2.21629 5.53 4.54929 5.038 8.31369-.408 3.1234-2.411 4.5615-5.038 6.2983-4.72 3.1192-14.486 0-14.486 0" clip-rule="evenodd"/><path fill="#011053" d="M46.9851 46.7219h8.6916s-3.7789-7.9142-3.7789-14.9899S57.9305 19.0145 67 19.0145c9.4474 0 12.5127 5.7305 13.366 12.7175.8533 6.9869-4.4088 14.9899-4.4088 14.9899h9.0695s2.9748-4.449 3.9049-7.6839c1.3593-4.7278 1.3219-8.866 0-13.6043C86.5668 16.9563 82 13.896 76.5 11.5145 71 9.13294 65 9.01449 58.448 10.9476c-7.7814 2.2959-12.4445 7.6418-14.486 15.4938-1.2379 4.761-1.1065 7.8033 0 12.5966.7252 3.142 3.0231 7.6839 3.0231 7.6839"/></svg> */
+
+.nav-item {
+  position: relative;
+  /* cursor: pointer; */
+  padding-bottom: 3px;
+  display: inline-block;
+  transition: color 0.3s ease; /* smoother color transition */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  min-height: 0.5px;
+  max-height: 0.5px;
+  width: 100%;
+  background-color: #011053;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* slower and smoother */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.nav-item:hover::after {
+  transform: scaleX(1);
+  height: 1px;
+  transform-origin: left;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.nav-item[data-active="true"]::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  background-color: #011053;
 }
+
+.nav-item[data-active="true"] {
+  color: #011053;
+}
+
