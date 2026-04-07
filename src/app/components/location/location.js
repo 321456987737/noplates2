@@ -53,7 +53,7 @@ const Location = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white rounded-3xl p-10 space-y-6"
+            className="bg-white rounded-3xl md:p-10 p-3 space-y-6"
           >
             <motion.div
               initial={{ opacity: 0, y: 20 }}

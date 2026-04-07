@@ -35,11 +35,11 @@ const OpeningHours = () => {
         </div>
 
         {/* Card */}
-        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-10 space-y-8">
+        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 md:p-10 p-3  space-y-8">
 
           {/* Weekdays */}
           <div className="flex justify-between items-center border-b pb-4">
-            <motion.div
+            <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

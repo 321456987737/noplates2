@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -12,7 +12,6 @@ const Location = () => {
       className="w-full bg-white py-24 px-6 flex justify-center overflow-hidden"
     >
       <div className="max-w-6xl w-full space-y-14">
-
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -31,7 +30,6 @@ const Location = () => {
 
         {/* Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-
           {/* Map */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -54,50 +52,46 @@ const Location = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white rounded-3xl p-10 space-y-6"
+            className="bg-white rounded-3xl md:p-10 p-3 space-y-6"
           >
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.4 }}
->
-  <h3 className="text-xl font-semibold text-gray-900">
-    No Plates Coffee
-  </h3>
-  <p className="text-gray-600 mt-2">
-    12 John St, New York, NY 10038, United States
-  </p>
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+            >
+              <h3 className="text-xl font-semibold text-gray-900">
+                No Plates Coffee
+              </h3>
+              <p className="text-gray-600 mt-2">
+                12 John St, New York, NY 10038, United States
+              </p>
+            </motion.div>
 
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.4, delay: 0.1 }}
->
-  <h3 className="text-xl font-semibold text-gray-900">
-    Opening Hours
-  </h3>
-  <p className="text-gray-600 mt-2">
-    Mon - Sun: 7:00 AM - 5:00 PM
-  </p>
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.1 }}
+            >
+              <h3 className="text-xl font-semibold text-gray-900">
+                Opening Hours
+              </h3>
+              <p className="text-gray-600 mt-2">Mon - Sun: 7:00 AM - 5:00 PM</p>
+            </motion.div>
 
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.4, delay: 0.2 }}
->
-  <h3 className="text-xl font-semibold text-gray-900">
-    Contact
-  </h3>
-  <p className="text-gray-600 mt-2">
-    +1 929 278 2719 <br />
-    info@noplatescoffee.com
-  </p>
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.2 }}
+            >
+              <h3 className="text-xl font-semibold text-gray-900">Contact</h3>
+              <p className="text-gray-600 mt-2">
+                +1 929 278 2719 <br />
+                info@noplatescoffee.com
+              </p>
+            </motion.div>
             {/* <div>
               <h3 className="text-xl font-semibold text-gray-900">
                 No Plates Coffee
@@ -134,9 +128,7 @@ const Location = () => {
             >
               Open in Google Maps
             </a>
-
           </motion.div>
-
         </div>
       </div>
     </motion.div>

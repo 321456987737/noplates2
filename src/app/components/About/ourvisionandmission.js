@@ -62,12 +62,12 @@ const MissionVision = () => {
               Our Vision
             </h3>
 
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-800 text-lg leading-relaxed">
               To become more than a coffee shop — a place people associate with
               comfort, creativity, and calm in their daily routine.
             </p>
 
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-800 text-lg leading-relaxed">
               We imagine a world where coffee breaks aren’t distractions,
               but meaningful pauses that bring clarity, ideas, and connection.
             </p>
