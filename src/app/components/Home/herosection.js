@@ -14,10 +14,10 @@ const Herosection = () => {
             loading="eager"
             width={2400}
             height={2400}
-            className="h-[110vh] w-full object-cover"
+            className="md:h-[110vh] h-[80vh] w-full object-cover"
           />
 
-          <div className="h-[110vh] w-full bg-black/45 absolute inset-0 z-10" />
+          <div className="md:h-[110vh] h-[80vh] w-full bg-black/45 absolute inset-0 z-10" />
 
           <div className="absolute left-1/2 top-2/5 -translate-x-1/2 -translate-y-1/2 text-center flex items-center justify-center flex-col w-full text-white px-4 z-20">
             <motion.h1
