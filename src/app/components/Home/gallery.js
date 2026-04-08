@@ -13,7 +13,7 @@ const Gallery = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-5xl font-bold text-gray-900"
+            className="text-3xl md:text-5xl heading text-gray-900"
           >
             Our Gallery
           </motion.h1>

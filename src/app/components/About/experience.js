@@ -37,7 +37,7 @@ const Experience = () => {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto"
           >
-            <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">
+            <h2 className="text-3xl md:text-5xl heading text-gray-900">
               Experience & Atmosphere
             </h2>
             <p className="text-gray-500 mt-8 md:mt-12 text-base md:text-lg leading-relaxed max-w-[420px] mx-auto">
@@ -56,7 +56,7 @@ const Experience = () => {
             className="flex flex-col md:flex-row items-center gap-10 md:gap-16"
           >
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                 Warm Coffee Rituals
               </h3>
               <p className="text-gray-600 leading-relaxed text-base md:text-lg">
@@ -90,7 +90,7 @@ const Experience = () => {
             className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16"
           >
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                 A Place to Unwind
               </h3>
               <p className="text-gray-600 leading-relaxed text-base md:text-lg">
@@ -124,7 +124,7 @@ const Experience = () => {
             className="flex flex-col md:flex-row items-center gap-10 md:gap-16"
           >
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                 Calm & Cozy Atmosphere
               </h3>
               <p className="text-gray-600 leading-relaxed text-base md:text-lg">

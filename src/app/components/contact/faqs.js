@@ -41,7 +41,7 @@ export default function Faqs() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold mb-4 Arimo">
+          <h2 className="text-4xl md:text-5xl heading mb-4 Arimo">
             Our Philosophy
           </h2>
 
@@ -70,7 +70,7 @@ export default function Faqs() {
                   onClick={() => toggle(index)}
                   className="flex w-full items-center justify-between p-6"
                 >
-                  <span className="font-semibold text-lg">{faq.question}</span>
+                  <span className="heading text-lg">{faq.question}</span>
 
                   <motion.div
                     animate={{ rotate: isOpen ? 45 : 0 }}
@@ -105,39 +105,43 @@ export default function Faqs() {
           <div>
             {" "}
             <motion.h2
-            initial={{opacity:0, y:20}}
-            whileInView={{opacity:1, y:0}}
-            viewport={{once:true}}
-            transition={{duration:0.4, delay:0.15}}
-            className="text-3xl md:text-4xl font-semibold text-black">
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.15 }}
+              className="text-3xl md:text-4xl heading text-black"
+            >
               {" "}
               Quick Contact{" "}
             </motion.h2>{" "}
-            <motion.p     initial={{opacity:0, y:20}}
-            whileInView={{opacity:1, y:0}}
-            viewport={{once:true}}
-            transition={{duration:0.4, delay:0.25}} className="mt-3 text-gray-500">
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.25 }}
+              className="mt-3 text-gray-500"
+            >
               {" "}
               Need help fast? Reach us instantly through any option below.{" "}
-            </motion.p>{" "} 
+            </motion.p>{" "}
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
             <motion.a
-     initial={{opacity:0, y:20}}
-            whileInView={{opacity:1, y:0}}
-            viewport={{once:true}}
-            transition={{duration:0.4, delay:0.25}}
- href="tel:+921234567890"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.25 }}
+              href="tel:+921234567890"
               className="flex items-center gap-3 px-6 py-3 rounded-full bg-black text-white hover:bg-gray-800 transition"
             >
               {" "}
               <Phone size={18} /> Call Now{" "}
             </motion.a>{" "}
             <motion.a
-                initial={{opacity:0, y:20}}
-            whileInView={{opacity:1, y:0}}
-            viewport={{once:true}}
-            transition={{duration:0.4, delay:0.35}}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.35 }}
               href="https://wa.me/921234567890"
               target="_blank"
               className="flex items-center gap-3 px-6 py-3 rounded-full bg-green-500 text-white hover:bg-green-600 transition"
@@ -159,10 +163,10 @@ export default function Faqs() {
             </motion.a>{" "}
             {/* Instagram */}{" "}
             <motion.a
-              initial={{opacity:0, y:20}}
-            whileInView={{opacity:1, y:0}}
-            viewport={{once:true}}
-            transition={{duration:0.4, delay:0.45}}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.45 }}
               href="https://instagram.com/yourusername"
               target="_blank"
               className="flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white hover:opacity-90 transition"

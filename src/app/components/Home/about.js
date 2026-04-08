@@ -48,7 +48,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-6xl font-sans mb-6"
+            className="text-4xl md:text-6xl heading mb-6"
           >
             No Plates Just Taste.
           </motion.h1>
@@ -57,7 +57,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-base md:text-lg max-w-xl font-serif"
+            className="text-base md:text-lg max-w-xl "
           >
             Experience food differently. Fresh flavors, beautiful presentation,
             and moments worth savoring — without the rules.
@@ -67,7 +67,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="px-8 py-4 cursor-pointer mt-12 border rounded-sm"
+            className="px-8 py-4 cursor-pointer mt-12 border rounded-sm heading"
           >
             <Link href="/About-us">About us</Link>
           </motion.button>
@@ -89,10 +89,10 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="text-center max-w-2xl mx-auto"
             >
-              <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900">
+              <h2 className="text-4xl md:text-5xl heading tracking-tight text-gray-900">
                 Why Choose Us
               </h2>
-              <p className="text-gray-500 mt-8 md:mt-12 text-base md:text-lg leading-relaxed max-w-[420px] mx-auto">
+              <p className="text-gray-500 mt-8 md:mt-12 text-base md:text-lg  md:max-w-112.5 max-w-87.5 mx-auto">
                 Simple, fresh and made with love — crafted to give you the best experience every time.
               </p>
             </motion.div>
@@ -107,7 +107,7 @@ const About = () => {
               className="flex flex-col md:flex-row items-center gap-10 md:gap-16"
             >
               <div className="w-full md:w-1/2 text-center md:text-left">
-                <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                   Fresh Ingredients
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-base md:text-lg">
@@ -117,7 +117,7 @@ const About = () => {
 
               <motion.div
                 variants={imageZoom}
-                className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
+                className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
                   src="/about/download (1)aaaa 1.png"
@@ -140,7 +140,7 @@ const About = () => {
               className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16"
             >
               <div className="w-full md:w-1/2 text-center md:text-left">
-                <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                   Modern Recipes
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-base md:text-lg">
@@ -150,7 +150,7 @@ const About = () => {
 
               <motion.div
                 variants={imageZoom}
-                className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
+                className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
                   src="/about/download (1)222 1.png"
@@ -173,7 +173,7 @@ const About = () => {
               className="flex flex-col md:flex-row items-center gap-10 md:gap-16"
             >
               <div className="w-full md:w-1/2 text-center md:text-left">
-                <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-2xl md:text-3xl heading text-gray-900 mb-4">
                   Cozy Experience
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-base md:text-lg">
@@ -183,7 +183,7 @@ const About = () => {
 
               <motion.div
                 variants={imageZoom}
-                className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
+                className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
                   src="/about/download(1)ccc1.png"

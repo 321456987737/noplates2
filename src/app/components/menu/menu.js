@@ -54,23 +54,11 @@ const menuData = [
 
 export default function Menu() {
   return (
-    <div className="w-full min-h-screen bg-white text-gray-900 px-6 py-16">
-      
-      {/* Header */}
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="max-w-5xl mx-auto text-center mb-16"
-      >
-        <h1 className="text-5xl font-bold mb-4">Our Menu</h1>
-        <p className="text-gray-500 text-lg">
-          Freshly brewed coffee, delicious food, and cozy vibes ☕
-        </p>
-      </motion.div>
+    <div className="w-full min-h-screen bg-white text-gray-900 px-6 py-16 md:mt-64 mt-32 ">
+    
 
       {/* Menu Sections */}
-      <div className="max-w-5xl mx-auto space-y-14">
+      <div className="max-w-5xl mx-auto space-y-14 ">
         {menuData.map((section, idx) => (
           <motion.div
             key={idx}
@@ -80,7 +68,7 @@ export default function Menu() {
             transition={{ duration: 0.5, delay: idx * 0.1 }}
           >
             {/* Category Title */}
-            <h2 className="text-2xl font-semibold mb-6 border-b pb-2">
+            <h2 className="text-2xl heading mb-6 border-b pb-2">
               {section.category}
             </h2>
 
@@ -97,7 +85,7 @@ export default function Menu() {
                 >
                   {/* Left side */}
                   <div>
-                    <h3 className="text-lg font-medium">{item.name}</h3>
+                    <h3 className="text-lg heading">{item.name}</h3>
                     <p className="text-sm text-gray-500 mt-1">
                       {item.desc}
                     </p>
@@ -130,7 +118,7 @@ export default function Menu() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.15 }}
-        className="px-8 py-4 border border-black rounded-sm cursor-pointer transition">
+        className="px-8 py-4 border border-black rounded-sm cursor-pointer transition heading" >
           Order Now
         </motion.button>
       </motion.div>

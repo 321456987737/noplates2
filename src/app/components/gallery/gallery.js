@@ -64,7 +64,7 @@ const Gallery = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-semibold text-black"
+          className="text-4xl md:text-5xl heading text-black"
         >
           Our Gallery
         </motion.h1>

@@ -18,7 +18,7 @@ const CoffeePhilosophy = () => {
           <p className="text-sm tracking-[0.3em] text-gray-400 uppercase">
             Coffee Philosophy
           </p>
-          <h2 className="mt-5 text-4xl md:text-5xl font-semibold text-black leading-tight">
+          <h2 className="mt-5 text-4xl md:text-5xl heading text-black leading-tight">
             Quality is Not an Option
           </h2>
 
@@ -39,7 +39,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl font-semibold text-black">
+            <h3 className="text-xl heading text-black">
               Sourced with Care
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -56,7 +56,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl font-semibold text-black">
+            <h3 className="text-xl heading text-black">
               Roasted with Precision
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -73,7 +73,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl font-semibold text-black">
+            <h3 className="text-xl heading text-black">
               Brewed with Purpose
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -92,7 +92,7 @@ const CoffeePhilosophy = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto pt-6"
         >
-          <p className="text-xl md:text-2xl font-medium text-black leading-relaxed">
+          <p className="text-xl md:text-2xl heading text-black leading-relaxed">
             Quality is not something we add — it’s something we protect in every step.
           </p>
         </motion.div>

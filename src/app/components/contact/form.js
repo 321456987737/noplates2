@@ -83,7 +83,7 @@ ${message}
                 initial={{ y: 20 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.4, delay: 0.2 }}
-                viewport={{ once: true }} className="text-4xl md:text-5xl font-semibold mb-4 Arimo">
+                viewport={{ once: true }} className="text-4xl md:text-5xl heading mb-4 ">
              Send us message
            </motion.h2>
 
@@ -153,7 +153,7 @@ ${message}
           {/* Button */}
           <button
             disabled={loading}
-           className=" text-black py-3 rounded-md md:col-span-2 border hover:bg-[#fafafa] cursor-pointer hover:text-black transition duration-300"
+           className=" text-black py-3 rounded-md md:col-span-2 border  heading hover:bg-[#fafafa] cursor-pointer hover:text-black transition duration-300"
           >
             {loading ? "Redirecting..." : "Send Message"}
           </button>
@@ -207,7 +207,7 @@ ${message}
                 initial={{ y: 20 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.4 }}
-                viewport={{ once: true }} className="text-xl font-semibold">
+                viewport={{ once: true }} className="text-xl heading">
                 {itemData.title}
               </motion.h3>
 

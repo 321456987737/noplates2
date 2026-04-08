@@ -25,16 +25,18 @@ const Herosection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="md:text-5xl text-4xl md:mb-8  mb-6 font-sans"
+              className="md:text-5xl text-4xl md:mb-8  mb-6 heading leading-normal"
             >
-              Get in Touch with No Plates Coffee.
+              Get in Touch with 
+              <br />
+              No Plates Coffee.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className=" md:max-w-[450px] max-w-[320px] "
+              className=" md:max-w-112.5 max-w-87.5 "
             >
               Every great conversation starts with a cup of coffee. Whether you have a question, a suggestion, or just want to share your love for coffee — we’re here and ready to listen.
             </motion.p>
@@ -50,7 +52,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.15 }}
                 viewport={{ once: true }}
-                className="md:text-lg max-w-[450px]  tracking-[0.3em]"
+                className="md:text-lg max-w-112.5  tracking-[0.3em]"
               >
                 Welcome to
               </motion.p>
@@ -59,7 +61,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="md:text-8xl text-6xl  md:mt-8 mt-6 font-sans"
+                className="md:text-8xl text-6xl heading  md:mt-8 mt-6 font-sans"
               >
                 Contact Us
               </motion.h1>

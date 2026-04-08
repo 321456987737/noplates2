@@ -25,7 +25,7 @@ const Herosection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="md:text-5xl text-4xl md:mb-8  mb-6 font-sans"
+              className="md:text-5xl text-4xl md:mb-8  mb-6 heading"
             >
               Visit No Plates Coffee
             </motion.h1>
@@ -34,7 +34,7 @@ const Herosection = () => {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className=" md:max-w-[450px] max-w-[320px] "
+              className=" md:max-w-112.5 max-w-87.5 "
             >
          Step into a space where coffee meets comfort. Located in the heart of the city, Noplat3es Coffee is the perfect place to relax, work, or catch up with friends over a freshly brewed cup.
             </motion.p>
@@ -50,7 +50,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.15 }}
                 viewport={{ once: true }}
-                className="md:text-lg max-w-[450px]  tracking-[0.3em]"
+                className="md:text-lg mx-auto max-w-[450px] text-center tracking-[0.3em]"
               >
                 Welcome to
               </motion.p>
@@ -59,7 +59,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="md:text-8xl text-6xl  md:mt-8 mt-6 font-sans"
+                className="md:text-8xl text-6xl  md:mt-8 mt-6 heading"
               >
                 Our Location
               </motion.h1>

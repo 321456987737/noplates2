@@ -21,7 +21,7 @@ const OpeningHours = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.1 }}
-          className="mt-4 text-4xl md:text-5xl font-semibold text-black">
+          className="mt-4 text-4xl md:text-5xl heading text-black">
             Visit Us Anytime
           </motion.h2>
           <motion.p
@@ -45,7 +45,7 @@ const OpeningHours = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.2 }}
             >
-              <h3 className="text-lg font-medium text-black">
+              <h3 className="text-lg heading text-black">
                 Monday – Friday
               </h3>
               <p className="text-sm text-gray-500">
@@ -70,7 +70,7 @@ const OpeningHours = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.3 }}
             >
-              <h3 className="text-lg font-medium text-black">
+              <h3 className="text-lg heading text-black">
                 Saturday – Sunday
               </h3>
               <p className="text-sm text-gray-500">

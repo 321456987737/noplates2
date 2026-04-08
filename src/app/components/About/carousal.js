@@ -70,7 +70,7 @@ const TeamCarousel = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 , delay: 0.2}}
-          className="mt-4 text-4xl md:text-5xl font-semibold text-black"
+          className="mt-4 text-4xl md:text-5xl heading text-black"
         >
           The People Behind Every Cup
         </motion.h2>
@@ -98,7 +98,7 @@ const TeamCarousel = () => {
 
                 {/* Overlay */}
                 <div className="absolute bottom-0 left-0 w-full bg-black/50 text-white p-6">
-                  <h3 className="text-xl font-semibold">{member.name}</h3>
+                  <h3 className="text-xl heading">{member.name}</h3>
                   <p className="text-sm text-gray-200">{member.role}</p>
                 </div>
               </div>

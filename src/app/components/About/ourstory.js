@@ -19,7 +19,7 @@ const OurStory = () => {
           <p className="text-sm tracking-[0.3em] text-gray-400 uppercase">
             Our Story
           </p>
-          <h2 className="mt-5 text-4xl md:text-5xl font-semibold leading-tight text-black">
+          <h2 className="mt-5 text-4xl md:text-5xl heading leading-tight text-black">
             Coffee, Done Differently.
           </h2>
         </motion.div>
@@ -79,7 +79,7 @@ const OurStory = () => {
           transition={{ duration: 0.6 }}
           className="border-t pt-12 text-center max-w-3xl mx-auto"
         >
-          <p className="text-xl md:text-2xl text-black font-medium leading-relaxed">
+          <p className="text-xl md:text-2xl text-black heading leading-relaxed">
             Good coffee doesn’t need noise. It just needs care.
           </p>
           <p className="mt-4 text-gray-500 text-sm tracking-wide">

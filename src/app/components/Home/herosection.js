@@ -25,7 +25,7 @@ const Herosection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
                  viewport={{once:true}}
-              className="md:text-5xl text-4xl md:mb-8  mb-6 font-sans"
+              className="md:text-5xl text-4xl md:mb-8  mb-6  heading"
             >
               No Plates Just Taste.
             </motion.h1>
@@ -56,7 +56,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
                 viewport={{once:true}}
-                className="md:text-8xl text-6xl  md:mt-8 mt-6 font-sans"
+                className="md:text-8xl text-6xl  heading md:mt-8 mt-6 font-sans"
                 >
                 No Plates
               </motion.h1>

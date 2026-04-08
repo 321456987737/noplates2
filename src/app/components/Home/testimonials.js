@@ -24,10 +24,9 @@ const testimonials = [
 const TestimonialCarousel = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true },
-    [Autoplay({ delay: 4000, stopOnInteraction: false })]
-  );
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay({ delay: 4000, stopOnInteraction: false }),
+  ]);
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -49,35 +48,38 @@ const TestimonialCarousel = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <motion.div
-      className="w-full bg-[#fafafa] py-24 px-6 flex justify-center"
-    >
+    <motion.div className="w-full bg-[#fafafa] py-24 px-6 flex justify-center">
       <div className="max-w-3xl w-full text-center space-y-12">
-
         {/* Heading */}
         <div>
-          <motion.h2 
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }} className="text-3xl md:text-5xl font-bold text-gray-900">
+          <motion.h2
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-3xl md:text-5xl heading text-gray-900"
+          >
             Our Testimonials
           </motion.h2>
-          <motion.p 
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 ,delay:0.2}} className="text-gray-500 mt-8 md:mt-12">
+          <motion.p
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-gray-500 mt-8 md:mt-12"
+          >
             Read what our top customer says about noplates
           </motion.p>
         </div>
 
         {/* Embla */}
-        <motion.div 
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }} className="relative">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="relative"
+        >
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {testimonials.map((item, index) => (
@@ -127,7 +129,6 @@ const TestimonialCarousel = () => {
             />
           ))}
         </div>
-
       </div>
     </motion.div>
   );

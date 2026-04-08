@@ -25,16 +25,18 @@ const Herosection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="md:text-5xl text-4xl md:mb-8  mb-6 font-sans"
+              className="md:text-5xl text-4xl md:mb-8  mb-6 heading leading-normal"
             >
-              Brewing Passion Since Day One.
+              Brewing Passion 
+              <br />
+              Since Day One.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className=" md:max-w-[450px] max-w-[320px] "
+              className=" md:max-w-[450px] max-w-[350px] "
             >
               What started as a small dream between friends quickly turned into
               a place where coffee lovers gather, connect, and feel at home. We
@@ -53,7 +55,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.15 }}
                 viewport={{ once: true }}
-                className="md:text-lg max-w-[450px]  tracking-[0.3em]"
+                className="    tracking-[0.3em]"
               >
                 Welcome to
               </motion.p>
@@ -62,7 +64,7 @@ const Herosection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="md:text-8xl text-6xl  md:mt-8 mt-6 font-sans"
+                className="md:text-8xl text-6xl  heading md:mt-8 mt-6 "
               >
                 About Us
               </motion.h1>

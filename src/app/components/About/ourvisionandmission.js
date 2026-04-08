@@ -18,7 +18,7 @@ const MissionVision = () => {
           <p className="text-sm tracking-[0.3em] text-gray-400 uppercase">
             Purpose & Direction
           </p>
-          <h2 className="mt-5 text-4xl md:text-5xl font-semibold text-black leading-tight">
+          <h2 className="mt-5 text-4xl md:text-5xl heading text-black leading-tight">
             Our Mission & Vision
           </h2>
         </motion.div>
@@ -34,7 +34,7 @@ const MissionVision = () => {
             transition={{ duration: 0.6 }}
             className="bg-white rounded-3xl md:p-10 p-4 shadow-sm border border-gray-100 space-y-6"
           >
-            <h3 className="text-2xl font-semibold text-black">
+            <h3 className="text-2xl heading text-black">
               Our Mission
             </h3>
 
@@ -58,7 +58,7 @@ const MissionVision = () => {
             transition={{ duration: 0.6 }}
             className="bg-[#fafafa] rounded-3xl md:p-10 p-4 shadow-sm space-y-6"
           >
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-2xl heading">
               Our Vision
             </h3>
 
@@ -83,7 +83,7 @@ const MissionVision = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto"
         >
-          <p className="text-xl md:text-2xl font-medium text-black leading-relaxed">
+          <p className="text-xl md:text-2xl heading text-black leading-relaxed">
             We don’t just serve coffee. We shape moments worth slowing down for.
           </p>
         </motion.div>
