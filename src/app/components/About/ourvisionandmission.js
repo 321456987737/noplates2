@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MissionVision = () => {
   return (
-    <section className="w-full md:pb-20 pb-8 pt-8 px-6 flex justify-center">
+    <section className="w-full md:pb-20 pb-8 pt-8 px-6 flex justify-center overflow-hidden">
       <div className="max-w-6xl w-full space-y-20">
 
         {/* Heading */}
