@@ -64,6 +64,7 @@ const Startinganimation = () => {
               alt="logo"
               width={200}
               height={200}
+              loading="eager"
               className="rounded-full object-cover width-[120px] height-[120px] md:width-[600px] md:height-[240px]"
             />
           </motion.div>

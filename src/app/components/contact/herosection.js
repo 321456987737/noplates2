@@ -9,7 +9,7 @@ const Herosection = () => {
         {/* HERO */}
         <div className="relative">
           <Image
-            src="/hero.jpg"
+            src="/heroimage1.jpg"
             alt="Hero"
             loading="eager"
             width={2400}

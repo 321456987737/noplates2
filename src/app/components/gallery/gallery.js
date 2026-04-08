@@ -5,32 +5,72 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "/hero.jpg",
+    src: "/gallery/1.jpg",
     title: "Fresh Coffee Moments",
     desc: "Every cup is brewed with passion and precision.",
   },
   {
-    src: "/hero.jpg",
+    src: "/gallery/2.jpg",
     title: "Cozy Atmosphere",
     desc: "A warm space designed for comfort and connection.",
   },
   {
-    src: "/hero.jpg",
+    src: "/gallery/3.jpg",
     title: "Barista Craft",
     desc: "Skilled hands crafting perfect espresso shots.",
   },
   {
-    src: "/hero.jpg",
+    src: "/gallery/4.jpg",
     title: "Sweet Treats",
     desc: "Freshly baked desserts to complete your experience.",
   },
   {
-    src: "/hero.jpg",
+    src: "/gallery/5.jpg",
     title: "Morning Energy",
     desc: "Start your day with the perfect coffee boost.",
   },
   {
-    src: "/hero.jpg",
+    src: "/gallery/6.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/7.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.a",
+  },
+  {
+    src: "/gallery/8.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe. aa",
+  },
+  {
+    src: "/gallery/9.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/10.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/11.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/12.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/13.jpg",
+    title: "Evening Chill",
+    desc: "Relax and unwind in a calm café vibe.",
+  },
+  {
+    src: "/gallery/14.jpg",
     title: "Evening Chill",
     desc: "Relax and unwind in a calm café vibe.",
   },
@@ -84,7 +124,7 @@ const Gallery = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-0"
       >
         {images.map((item, index) => (
           <motion.div
@@ -103,6 +143,7 @@ const Gallery = () => {
                 alt={item.title}
                 width={800}
                 height={800}
+                loading="eager"
                 className="w-full h-full object-cover"
               />
             </motion.div>
