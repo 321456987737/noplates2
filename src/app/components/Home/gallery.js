@@ -22,7 +22,7 @@ const Gallery = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
             viewport={{ once: true }}
-            className="text-gray-500 mt-8 md:mt-12"
+            className="text-gray-500 mt-8 "
           >
             A glimpse of our experience
           </motion.p>

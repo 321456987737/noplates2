@@ -24,7 +24,7 @@ const Location = () => {
           <h2 className="text-3xl md:text-5xl heading text-gray-900">
             Visit Us
           </h2>
-          <p className="text-gray-500 mt-4 text-base md:text-lg">
+          <p className="text-gray-500 mt-8 text-base md:text-lg">
             Find us easily and come enjoy the best coffee experience in town.
           </p>
         </motion.div>
@@ -61,7 +61,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
             >
-              <h3 className="text-xl heading text-gray-900">
+              <h3 className="text-xl font-semibold text-gray-900">
                 No Plates Coffee
               </h3>
               <p className="text-gray-600 mt-2">
@@ -75,7 +75,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.1 }}
             >
-              <h3 className="text-xl heading text-gray-900">
+              <h3 className="text-xl font-semibold  text-gray-900">
                 Opening Hours
               </h3>
               <p className="text-gray-600 mt-2">Mon - Sun: 7:00 AM - 5:00 PM</p>
@@ -87,7 +87,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.2 }}
             >
-              <h3 className="text-xl heading text-gray-900">Contact</h3>
+              <h3 className="text-xl font-semibold text-gray-900">Contact</h3>
               <p className="text-gray-600 mt-2">
                 +1 929 278 2719 <br />
                 info@noplatescoffee.com
@@ -150,7 +150,7 @@ const Location = () => {
           <motion.h2   initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4 , delay: 0.1 }} className="mt-4 text-4xl md:text-5xl heading text-black">
+              transition={{ duration: 0.4 , delay: 0.1 }} className="mt-8 text-4xl md:text-5xl heading text-black">
             Visit Us Anytime
           </motion.h2>
           <motion.p   initial={{ opacity: 0, y: 20 }}
@@ -170,7 +170,7 @@ const Location = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}>
-              <h3 className="text-lg heading text-black">
+              <h3 className="text-lg font-semibold text-black">
                 Monday – Friday
               </h3>
               <p className="text-sm text-gray-500">
@@ -191,7 +191,7 @@ const Location = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}>
-              <h3 className="text-lg heading text-black">
+              <h3 className="text-lg font-semibold text-black">
                 Saturday – Sunday
               </h3>
               <p className="text-sm text-gray-500">

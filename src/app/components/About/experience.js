@@ -40,7 +40,7 @@ const Experience = () => {
             <h2 className="text-3xl md:text-5xl heading text-gray-900">
               Experience & Atmosphere
             </h2>
-            <p className="text-gray-500 mt-8 md:mt-12 text-base md:text-lg leading-relaxed max-w-[420px] mx-auto">
+            <p className="text-gray-500 mt-8  text-base md:text-lg leading-relaxed max-w-[420px] mx-auto">
               A space designed to slow you down — where coffee, comfort, and calm
               come together in every visit.
             </p>

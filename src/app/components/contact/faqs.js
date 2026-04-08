@@ -41,7 +41,7 @@ export default function Faqs() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <h2 className="text-4xl md:text-5xl heading mb-4 Arimo">
+          <h2 className="text-4xl md:text-5xl heading mb-8 Arimo">
             Our Philosophy
           </h2>
 
@@ -70,7 +70,7 @@ export default function Faqs() {
                   onClick={() => toggle(index)}
                   className="flex w-full items-center justify-between p-6"
                 >
-                  <span className="heading text-lg">{faq.question}</span>
+                  <span className=" text-lg font-semibold">{faq.question}</span>
 
                   <motion.div
                     animate={{ rotate: isOpen ? 45 : 0 }}

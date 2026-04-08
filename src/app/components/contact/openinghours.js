@@ -29,7 +29,7 @@ const OpeningHours = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.15 }}
-          className="mt-4 text-gray-600  mx-auto max-w-[450px]">
+          className="mt-8 text-gray-600  mx-auto max-w-[450px]">
             We’re here to serve you fresh coffee and a warm atmosphere every day.
           </motion.p>
         </div>
@@ -45,7 +45,7 @@ const OpeningHours = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.2 }}
             >
-              <h3 className="text-lg heading text-black">
+              <h3 className="text-lg  text-black">
                 Monday – Friday
               </h3>
               <p className="text-sm text-gray-500">
@@ -70,7 +70,7 @@ const OpeningHours = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.3 }}
             >
-              <h3 className="text-lg heading text-black">
+              <h3 className="text-lg  text-black">
                 Saturday – Sunday
               </h3>
               <p className="text-sm text-gray-500">

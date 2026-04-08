@@ -67,7 +67,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="px-8 py-4 cursor-pointer mt-12 border rounded-sm heading"
+            className="px-8 py-4 cursor-pointer mt-12 border rounded-sm "
           >
             <Link href="/About-us">About us</Link>
           </motion.button>
@@ -92,7 +92,7 @@ const About = () => {
               <h2 className="text-4xl md:text-5xl heading tracking-tight text-gray-900">
                 Why Choose Us
               </h2>
-              <p className="text-gray-500 mt-8 md:mt-12 text-base md:text-lg  md:max-w-112.5 max-w-87.5 mx-auto">
+              <p className="text-gray-500 mt-8 text-base md:text-lg  md:max-w-112.5 max-w-87.5 mx-auto">
                 Simple, fresh and made with love — crafted to give you the best experience every time.
               </p>
             </motion.div>

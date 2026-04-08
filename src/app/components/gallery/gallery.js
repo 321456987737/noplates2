@@ -104,6 +104,7 @@ const Gallery = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
           className="text-4xl md:text-5xl heading text-black"
         >
           Our Gallery
@@ -112,7 +113,7 @@ const Gallery = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-4 text-gray-500 max-w-xl mx-auto"
+          className="mt-8 text-gray-500 max-w-xl mx-auto"
         >
           A glimpse into our café experience — crafted with love, detail, and passion.
         </motion.p>

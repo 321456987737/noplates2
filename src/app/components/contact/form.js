@@ -83,7 +83,7 @@ ${message}
                 initial={{ y: 20 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.4, delay: 0.2 }}
-                viewport={{ once: true }} className="text-4xl md:text-5xl heading mb-4 ">
+                viewport={{ once: true }} className="text-4xl md:text-5xl heading mb-8 ">
              Send us message
            </motion.h2>
 

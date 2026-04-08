@@ -42,7 +42,7 @@ const Startinganimation = () => {
           <motion.div
             className="absolute inset-0 bg-[#2E479C]"
             initial={{ clipPath: "circle(0% at 50% 50%)" }}
-            animate={
+            whileInView={
               phase === "expand"
                 ? { clipPath: "circle(150% at 50% 50%)" }
                 : phase === "hold"
@@ -56,8 +56,9 @@ const Startinganimation = () => {
           <motion.div
             className="relative z-10"
             initial={{ opacity: 1 }}
-            animate={{ opacity: phase === "exit" ? 0 : 1 }}
+            whileInView={{ opacity: phase === "exit" ? 0 : 1 }}
             transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
           >
             <Image
               src="/noplates.jpg"

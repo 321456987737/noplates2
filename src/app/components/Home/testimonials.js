@@ -66,7 +66,7 @@ const TestimonialCarousel = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-gray-500 mt-8 md:mt-12"
+            className="text-gray-500 mt-8 "
           >
             Read what our top customer says about noplates
           </motion.p>

@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center justify-center w-full h-full lg:gap-28 md:gap-20  ">
           {/* LEFT LINKS */}
           <div>
-            <ul className="flex gap-6 text-[18px]">
+            <ul className="flex gap-6 text-[18px] ">
               <li>
                 <Link
                   href="/"
@@ -39,7 +39,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/About-us"
-                  className="nav-item"
+                  className="nav-item "
                   data-active={pathname === "/About-us"}
                 >
                   About

@@ -23,7 +23,7 @@ const Location = () => {
           <h2 className="text-3xl md:text-5xl heading text-gray-900">
             Visit Us
           </h2>
-          <p className="text-gray-500 mt-4 text-base md:text-lg">
+          <p className="text-gray-500 mt-8 text-base md:text-lg">
             Find us easily and come enjoy the best coffee experience in town.
           </p>
         </motion.div>
@@ -60,7 +60,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
             >
-              <h3 className="text-xl heading text-gray-900">
+              <h3 className="text-xl  text-gray-900">
                 No Plates Coffee
               </h3>
               <p className="text-gray-600 mt-2">
@@ -74,7 +74,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.1 }}
             >
-              <h3 className="text-xl heading text-gray-900">
+              <h3 className="text-xl  text-gray-900">
                 Opening Hours
               </h3>
               <p className="text-gray-600 mt-2">Mon - Sun: 7:00 AM - 5:00 PM</p>
@@ -86,7 +86,7 @@ const Location = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.2 }}
             >
-              <h3 className="text-xl heading text-gray-900">Contact</h3>
+              <h3 className="text-xl  text-gray-900">Contact</h3>
               <p className="text-gray-600 mt-2">
                 +1 929 278 2719 <br />
                 info@noplatescoffee.com

@@ -22,7 +22,7 @@ const CoffeePhilosophy = () => {
             Quality is Not an Option
           </h2>
 
-          <p className="mt-6 text-gray-600 text-lg">
+          <p className="mt-8 text-gray-600 text-lg">
             Every cup we serve follows a simple belief — great coffee comes from
             respect for the process, not shortcuts.
           </p>
@@ -39,7 +39,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl heading text-black">
+            <h3 className="text-xl  text-black">
               Sourced with Care
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -56,7 +56,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl heading text-black">
+            <h3 className="text-xl  text-black">
               Roasted with Precision
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -73,7 +73,7 @@ const CoffeePhilosophy = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="bg-white rounded-2xl p-8 space-y-4 border border-gray-100"
           >
-            <h3 className="text-xl heading text-black">
+            <h3 className="text-xl  text-black">
               Brewed with Purpose
             </h3>
             <p className="text-gray-600 leading-relaxed">

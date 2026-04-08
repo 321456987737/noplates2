@@ -34,7 +34,7 @@ const MissionVision = () => {
             transition={{ duration: 0.6 }}
             className="bg-white rounded-3xl md:p-10 p-4 shadow-sm border border-gray-100 space-y-6"
           >
-            <h3 className="text-2xl heading text-black">
+            <h3 className="text-2xl  text-black">
               Our Mission
             </h3>
 
@@ -58,7 +58,7 @@ const MissionVision = () => {
             transition={{ duration: 0.6 }}
             className="bg-[#fafafa] rounded-3xl md:p-10 p-4 shadow-sm space-y-6"
           >
-            <h3 className="text-2xl heading">
+            <h3 className="text-2xl ">
               Our Vision
             </h3>
 

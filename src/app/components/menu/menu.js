@@ -85,7 +85,7 @@ export default function Menu() {
                 >
                   {/* Left side */}
                   <div>
-                    <h3 className="text-lg heading">{item.name}</h3>
+                    <h3 className="text-lg font-semibold">{item.name}</h3>
                     <p className="text-sm text-gray-500 mt-1">
                       {item.desc}
                     </p>

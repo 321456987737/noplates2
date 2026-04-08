@@ -113,7 +113,7 @@ export default function Menusection() {
 
               {/* Info */}
               <div className="flex items-center justify-between mt-6 w-full">
-                <h3 className="text-[18px] heading">
+                <h3 className="text-[18px] ">
                   {drink.name}
                 </h3>
                 <span className="text-lg font-semibold text-[#6f4e37]">
@@ -140,7 +140,7 @@ export default function Menusection() {
             <motion.button
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              className="mt-6 px-6 py-3 cursor-pointer border text-black rounded-md heading"
+              className="mt-6 px-6 py-3 cursor-pointer border text-black rounded-md "
             >
               Visit Menu
             </motion.button>
