@@ -70,7 +70,7 @@ const Experience = () => {
               className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
             >
               <Image
-                src="/about/download (1)aaaa 1.png"
+                src="/home/2025-07-19.jpg"
                 alt="Coffee Rituals"
                 width={1200}
                 height={1200}
@@ -104,7 +104,7 @@ const Experience = () => {
               className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
             >
               <Image
-                src="/about/download (1)222 1.png"
+                src="/home/ingridiants1.jpg"
                 alt="Relaxing Atmosphere"
                 width={600}
                 height={600}
@@ -138,7 +138,7 @@ const Experience = () => {
               className="w-full md:w-1/2 h-[260px] md:h-[320px] rounded-3xl overflow-hidden"
             >
               <Image
-                src="/about/download(1)ccc1.png"
+                src="/home/unnamed.jpg"
                 alt="Cozy Atmosphere"
                 width={600}
                 height={600}

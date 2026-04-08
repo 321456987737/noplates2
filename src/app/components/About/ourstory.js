@@ -62,7 +62,7 @@ const OurStory = () => {
             className="relative w-full h-[420px] rounded-2xl overflow-hidden"
           >
             <Image
-              src="/hero.jpg"
+              src="/about/about.jpg"
               alt="Coffee Story"
               width={1200}
               height={1200}

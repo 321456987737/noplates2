@@ -8,22 +8,22 @@ const team = [
   {
     name: "John Doe",
     role: "Head Barista",
-    image: "/hero.jpg",
+    image: "/workers/1.jpg",
   },
   {
     name: "Sarah Khan",
     role: "Coffee Roaster",
-    image: "/hero.jpg",
+    image: "/workers/2.jpg",
   },
   {
     name: "Ali Ahmed",
     role: "Cafe Manager",
-    image: "/hero.jpg",
+    image: "/workers/3.jpg",
   },
   {
     name: "Emma Watson",
     role: "Customer Experience",
-    image: "/hero.jpg",
+    image: "/workers/4.webp",
   },
 ];
 
