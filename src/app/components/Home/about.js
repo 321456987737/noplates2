@@ -32,7 +32,7 @@ const About = () => {
       <div className="relative w-full ">
         <div className="sticky top-0 h-screen w-full z-0">
           <Image
-            src="/hero.jpg"
+            src="/noplates1.jpg"
             alt="Hero"
             loading="eager"
             width={1920}
@@ -120,7 +120,7 @@ const About = () => {
                 className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
-                  src="/about/download (1)aaaa 1.png"
+                  src="/home/ingridiants1.jpg"
                   alt="Fresh Ingredients"
                   width={1200}
                   loading="eager"
@@ -153,7 +153,7 @@ const About = () => {
                 className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
-                  src="/about/download (1)222 1.png"
+                  src="/home/2025-07-19.jpg"
                   alt="Modern Recipes"
                   width={600}
                   loading="eager"
@@ -186,7 +186,7 @@ const About = () => {
                 className="w-full md:w-1/2 h-65 md:h-80 rounded-3xl overflow-hidden"
               >
                 <Image
-                  src="/about/download(1)ccc1.png"
+                  src="/home/unnamed.jpg"
                   alt="Cozy Experience"
                   width={600}
                   loading="eager"

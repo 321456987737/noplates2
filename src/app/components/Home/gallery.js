@@ -39,7 +39,7 @@ const Gallery = () => {
             className="col-span-2 row-span-2 bg-gray-200 rounded-2xl overflow-hidden"
           >
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/1.jpg"
               alt="image"
               width={600}
               height={600}
@@ -57,7 +57,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/2.jpg"
               alt="image"
               width={600}
               height={600}
@@ -73,7 +73,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/3.jpg"
               alt="image"
               width={600}
               height={600}
@@ -91,7 +91,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/4.jpg"
               alt="image"
               width={600}
               height={600}
@@ -107,7 +107,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/5.jpg"
               alt="image"
               width={600}
               height={600}
@@ -125,7 +125,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/6.jpg"
               alt="image"
               width={600}
               height={600}
@@ -144,7 +144,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/7.jpg"
               alt="image"
               width={600}
               height={600}
@@ -160,7 +160,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/8.jpg"
               alt="image"
               width={600}
               height={600}
@@ -177,7 +177,7 @@ const Gallery = () => {
             className="col-span-2 row-span-2 bg-gray-200 rounded-2xl"
           >
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/9.jpg"
               alt="image"
               width={600}
               height={600}
@@ -194,7 +194,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/10.jpg"
               alt="image"
               width={600}
               height={600}
@@ -212,7 +212,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/11.jpg"
               alt="image"
               width={600}
               height={600}
@@ -228,7 +228,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/12.jpg"
               alt="image"
               width={600}
               height={600}
@@ -244,7 +244,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/13.jpg"
               alt="image"
               width={600}
               height={600}
@@ -260,7 +260,7 @@ const Gallery = () => {
           >
             {" "}
             <Image
-              src="/about/download(1)ccc1.png"
+              src="/gallery/14.jpg"
               alt="image"
               width={600}
               height={600}
