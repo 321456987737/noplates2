@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const OurStory = () => {
   return (
-    <section className="w-full py-28 px-6 bg-white flex justify-center mt-32">
+    <section className="w-full py-28 px-6 bg-white flex justify-center mt-32 overflow-hidden">
       <div className="max-w-6xl w-full space-y-20">
 
         {/* Top Label */}
