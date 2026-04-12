@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
-import Startinganimation from "./components/startinganimation"
+import Startinganimation from "./components/startinganimation";
 import SmoothScroll from "./components/smoothscroll";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,17 +26,19 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-      <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>      
-        </head>
-      <body className="min-h-full flex flex-col" >
+        <link
+          href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
+      <body className="min-h-full flex flex-col">
         <SmoothScroll>
-
-        <Startinganimation/>
-      <Navbar/>
-        {children}
-        <Footer/>
+          <Startinganimation />
+          <Navbar />
+          {children}
+          <Footer />
         </SmoothScroll>
-        </body>
+      </body>
     </html>
   );
 }
