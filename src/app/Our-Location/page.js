@@ -1,6 +1,6 @@
 import React from 'react'
-import Herosection from "../components/location/herosection"
-import Location from '../components/location/location'
+import Herosection from "../../components/location/herosection"
+import Location from '../../components/location/location'
 const Page = () => {
   return (
     <div>

@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Herosection from '../components/menu/herosection'
-import  Menu from '../components/menu/menu'
+import Herosection from '../../components/menu/herosection'
+import  Menu from '../../components/menu/menu'
 const Page = () => {
   return (
     <div>
