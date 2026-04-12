@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center justify-center w-full h-full lg:gap-28 md:gap-20  ">
           {/* LEFT LINKS */}
           <div>
-            <ul className="flex gap-6 text-[18px] ">
+            <ul className="flex gap-6  ">
               <li>
                 <Link
                   href="/"
@@ -85,7 +85,7 @@ const Navbar = () => {
 
           {/* RIGHT LINKS */}
           <div>
-            <ul className="flex gap-6 text-[18px]">
+            <ul className="flex gap-6 ">
               <li>
                 <Link
                   href="/Our-Menu"
